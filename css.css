@@ -29,3 +29,14 @@ h3 {
   height: 60px;
   align-items: center;
 }
+
+.job-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #005eac;
+  width: 140px;
+  height: 40px;
+  color: #fff;
+}
