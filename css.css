@@ -5,10 +5,12 @@ body {
 
 p {
   font-size: 16px;
+  font-family: Helvetica, Arial, "Lucida Grande", Tahoma, Verdana, sans-serif;
 }
 
 h3 {
   margin: 0;
+  font-family: Helvetica, Arial, "Lucida Grande", Tahoma, Verdana, sans-serif;
 }
 
 .openings {
@@ -39,4 +41,18 @@ h3 {
   width: 140px;
   height: 40px;
   color: #fff;
+  font-family: Helvetica, Arial, "Lucida Grande", Tahoma, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 27px;
+  color: #4267b2;
+
+}
+
+.location {
+  font-size: 16px;
+  color: #9197a3;
+
 }

@@ -15,7 +15,7 @@ $.ajax({
       // console.log(JSON.stringify(data));
 
       for( i in data.jobs){
-			     $('#container').append('<div class="job-container"><div class="job-info"><p>'+ data.jobs[i].title +'</p><p>'+ data.jobs[i].city +', '+ data.jobs[i].state +'</p></div><a href="https://eaton.staging.jibeapply.com/jobs/'+ data.jobs[i].slug +'" target="_blank">Apply</a></div>');
+			     $('#container').append('<div class="job-container"><div class="job-info"><p class="title">'+ data.jobs[i].title +'</p><p class="location">'+ data.jobs[i].city +', '+ data.jobs[i].state +'</p></div><a href="https://eaton.staging.jibeapply.com/jobs/'+ data.jobs[i].slug +'" target="_blank">Apply</a></div>');
 		  }
     },
     error: function(data){
