@@ -1,5 +1,5 @@
 $.ajax({
-    url: "https://api.jibe.com/v1/jobs/find?limit=50",
+    url: "https://api.jibe.com/v1/jobs/find?limit=25",
     // url: "https://api.jibe.com/v1/jobs",
     headers: {
       "app_id": "7077e7b9",
