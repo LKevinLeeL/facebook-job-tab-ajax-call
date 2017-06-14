@@ -60,19 +60,18 @@ h3 {
 
 .all-jobs-button {
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   justify-content: center;
 }
 
 .all-jobs-button a {
   background: #005eac;
-  width: 150px;
-  height: 10px;
+  width: 140px;
   text-align: center;
   color: white;
   text-decoration: none;
-  padding: 20px;
+  padding: 15px;
   font-family: Helvetica, Arial, "Lucida Grande", Tahoma, Verdana, sans-serif;
 
 }
