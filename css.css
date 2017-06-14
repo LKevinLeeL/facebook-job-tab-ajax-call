@@ -63,6 +63,7 @@ h3 {
   height: auto;
   display: flex;
   justify-content: center;
+  margin: 15px 0 15px 0;
 }
 
 .all-jobs-button a {
