@@ -1,5 +1,5 @@
 $.ajax({
-    url: "https://api.jibe.com/v1/jobs/find?limit=25",
+    url: "https://api.jibe.com/v1/jobs/find?limit=100",
     // url: "https://api.jibe.com/v1/jobs",
     headers: {
       "app_id": "7077e7b9",
@@ -30,7 +30,7 @@ $.ajax({
       }
 
       for( i in res){
-			     $('#container').append('<div class="job-container"><div class="job-info"><p class="title"><a href="https://eaton.jibeapply.com/jobs/'+ res[i].slug +'" target="_blank">'+ res[i].title +'</a></p><p class="location">'+ getLocation(res[i].city) + getLocation(res[i].state) + res[i].country +'</p></div><a class="applybtn" href="https://eaton.jibeapply.com/jobs/'+ res[i].slug +'" target="_blank">Apply</a></div>');
+			     $('#container').append('<div class="job-container"><div class="job-info"><p class="title"><a href="https://eaton.jibeapply.com/jobs/'+ res[i].slug +'" target="_blank">'+ res[i].title +'</a></p><p class="location">'+ getLocation(res[i].city) + getLocation(res[i].state) + res[i].country +'</p></div><a class="applybtn" href="https://eaton.jibeapply.com/jobs/'+ res[i].slug +'" target="_blank">View Job Description</a></div>');
 		  }
 
     },
