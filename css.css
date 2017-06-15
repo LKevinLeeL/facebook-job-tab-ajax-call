@@ -28,8 +28,13 @@ h3 {
 .job-container {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  min-height: 60px;
   align-items: center;
+  width: 100%;
+}
+
+.job-container .job-info {
+  width: 70%;
 }
 
 .job-container .applybtn {
